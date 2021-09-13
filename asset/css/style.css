@@ -136,6 +136,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    text-shadow: 0 0 1px #000;
 }
 
 .content .content-section {
@@ -323,6 +324,10 @@ html {
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
+    /* trinh duyet binh thuong */
+    appearance: none;
+    /* cho safari cho iphone */
+    -webkit-appearance: none;
 }
 
 .map-img {
@@ -336,7 +341,7 @@ html {
 
 /* Mobile */
 
-@media (max-width: 740px) {
+@media (max-width: 739px) {
     .nav {
         display: block;
     }
